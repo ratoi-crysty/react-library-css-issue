@@ -28,6 +28,12 @@
     "react-library-css-issue-e2e": {
       "tags": [],
       "implicitDependencies": ["react-library-css-issue"]
+    },
+    "foo": {
+      "tags": []
+    },
+    "publishable-foo": {
+      "tags": []
     }
   }
 }

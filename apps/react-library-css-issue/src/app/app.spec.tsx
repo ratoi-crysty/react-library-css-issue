@@ -10,9 +10,9 @@ describe('App', () => {
     expect(baseElement).toBeTruthy();
   });
 
-  it('should have a greeting as the title', () => {
+  it('should have a title', () => {
     const { getByText } = render(<App />);
 
-    expect(getByText('Welcome to react-library-css-issue!')).toBeTruthy();
+    expect(getByText('App title')).toBeTruthy();
   });
 });

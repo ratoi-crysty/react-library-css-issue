@@ -15,7 +15,12 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@react-library-css-issue/foo": ["libs/foo/src/index.ts"],
+      "@react-library-css-issue/publishable-foo": [
+        "libs/publishable-foo/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
